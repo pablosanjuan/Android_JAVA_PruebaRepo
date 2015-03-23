@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tada.HistorialTexto" >
+<RelativeLayout 
+        android:background="#123456"
+        android:layout_height="200dp"
+        android:layout_width="match_parent">
+  	<TextView
+  	   android:textColor="@color/blanco"
+  	   android:layout_marginTop="10dp"
+  	   android:layout_marginBottom="10dp"
+       android:id="@+id/txt_hora"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Hora:   " />
+	   	   <TextView
+	   	   android:layout_marginTop="10dp"
+	   	   android:layout_marginBottom="10dp"
+	       android:id="@+id/txt_hora_m"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_toRightOf="@+id/txt_hora"
+	       android:text="hora a modificar"
+	       android:textColor="@color/blanco" />
+   <TextView
+       android:textColor="@color/blanco"
+       android:layout_marginBottom="10dp"
+       android:layout_below="@+id/txt_hora"
+       android:id="@+id/txt_fecha"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Fecha:   " />
+   			<TextView
+	   	   android:layout_marginBottom="10dp"
+	       android:id="@+id/txt_fecha_m"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_below="@+id/txt_hora"
+	       android:layout_toRightOf="@+id/txt_fecha"
+	       android:text="hora a modificar"
+	       android:textColor="@color/blanco" />
+   	<TextView
+   	    android:layout_marginBottom="10dp"
+   	   android:layout_below="@+id/txt_fecha"
+       android:id="@+id/txt_latitud"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Latitud:   " />
+   			<TextView
+	   	   android:layout_marginBottom="10dp"
+	       android:id="@+id/txt_latitud_m"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_below="@+id/txt_fecha"
+	       android:layout_toRightOf="@+id/txt_latitud"
+	       android:text="hora a modificar"/>
+   <TextView
+       android:layout_marginBottom="10dp"
+       android:layout_below="@+id/txt_latitud"
+       android:id="@+id/txt_longitud"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Longitud:   " />
+			<TextView
+	   	   android:layout_marginBottom="10dp"
+	       android:id="@+id/txt_longitud_m"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_below="@+id/txt_latitud"
+	       android:layout_toRightOf="@+id/txt_longitud"
+	       android:text="hora a modificar"/>
+   	<TextView
+   	    android:textColor="@color/blanco"
+   	    android:layout_marginBottom="10dp"
+   	    android:layout_below="@+id/txt_longitud"
+       android:id="@+id/txt_nota"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Nota:   " />
+   	   		<TextView
+	   	   android:layout_marginBottom="10dp"
+	       android:id="@+id/txt_nota_m"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_below="@+id/txt_longitud"
+	       android:layout_toRightOf="@+id/txt_nota"
+	       android:text="hora a modificar"
+	       android:textColor="@color/blanco" />
+   <TextView
+       android:textColor="@color/blanco"
+       android:layout_marginBottom="10dp"
+       android:id="@+id/txt_categoria"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/txt_nota"
+       android:text="Categoria:   " />
+      		<TextView
+	   	   android:layout_marginBottom="10dp"
+	       android:id="@+id/txt_categoria_m"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_toRightOf="@+id/txt_categoria"
+	       android:text="hora a modificar"
+	       android:layout_below="@+id/txt_nota"
+	       android:textColor="@color/blanco" />
+
+   		<Button
+       android:id="@+id/bmapa"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentTop="true"
+       android:text="Mapa" />
+</RelativeLayout>
+
+    <ListView
+        android:background="@color/blanco"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@android:id/list"/>
+</LinearLayout>

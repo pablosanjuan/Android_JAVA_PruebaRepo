@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tada.HistorialTexto" >
+	<RelativeLayout 
+        android:background="#123456"
+        android:layout_height="100dp"
+        android:layout_width="match_parent">
+  		<TextView
+  	   android:textColor="@color/blanco"
+  	   android:layout_marginTop="10dp"
+  	   android:layout_marginBottom="10dp"
+       android:id="@+id/txt_hora"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Nota de Voz:" />
+		  		<TextView
+		  		android:layout_marginTop="10dp"
+		  	   android:textColor="@color/blanco"
+		  	   android:layout_toRightOf="@+id/txt_hora"
+		       android:id="@+id/txt_nota_voz"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"/>
+   	   <TextView
+   	   android:layout_marginTop="10dp"
+   	   android:layout_marginBottom="10dp"
+       android:id="@+id/txt_voz_m"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/txt_hora"
+       android:text="Ruta:"
+       android:textColor="@color/blanco" />
+   	   			<TextView
+   	   		
+		  	   android:textColor="@color/blanco"
+		       android:id="@+id/txt_url_notz_voz"
+		       android:layout_below="@+id/txt_hora"
+		       android:layout_toRightOf="@+id/txt_voz_m"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"/>
+   <Button
+       android:id="@+id/btnreproducir"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentTop="true"
+       android:text="Reproducir" />
+</RelativeLayout>
+
+    <ListView 
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:id="@+id/lista_nota_texto1"/>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="verde">#00ff00</color>
+    <color name="rojo">#ff0000</color>
+    <color name="negro">#000000</color>
+    <color name="azul_oscuro">#0A1B2A</color>
+    <color name="azul">#0000ff</color>
+    <color name="azul_medio">#0489B1</color>
+    <color name="azul_boton_claro">#00ffff</color>
+    <color name="azul_boton_oscuro">#0B4C5F</color>
+    <color name="naranja">#ff8000</color>
+    <color name="naranja_oscuro">#61380B</color>
+    <color name="blanco">#ffffff</color>
+    <color name="gris">#151515</color>
+    <color name="gris_claro">#d8d8d8</color>
+    
+</resources>

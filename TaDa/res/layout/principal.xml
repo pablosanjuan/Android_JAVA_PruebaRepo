@@ -1,0 +1,80 @@
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TableRow 
+            android:gravity="center"
+        	android:layout_weight="1"
+        	android:background="#123456">
+        <LinearLayout 
+	   	   android:layout_width="match_parent"
+	       android:layout_height="match_parent"
+	       android:orientation="vertical"
+           android:gravity="center">
+			   <TextView 
+			   	   android:id="@+id/info"
+			   	   android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"/>
+			   <Button
+			       android:id="@+id/bGrabar"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:text="Grabar"/>
+			   <Button
+			       android:id="@+id/bDetener"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:text="Detener Grabacion"/>
+			   <Button
+			       android:id="@+id/bReproducir"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:text="Reproducir"/>
+		</LinearLayout>
+   		</TableRow>
+       <TableRow 
+        	android:layout_weight="0.1">
+			   <Button
+			       android:layout_height="match_parent"
+			       android:layout_weight="1"
+			       android:text="Notas de Voz"
+			       android:id="@+id/bhist_voz"
+			       android:background="#123456"
+			       android:textColor="@color/blanco"/>
+   			   <Button 
+			       android:layout_height="match_parent"
+			       android:layout_weight="1"
+			       android:text="Notas de Texto"
+			       android:id="@+id/bhist_notas"
+			       android:background="@color/blanco"
+			       android:textColor="@color/negro"/>
+			   
+        </TableRow>
+	    <TableRow
+	        android:gravity="center"
+	        android:layout_weight="1"
+	        android:background="#ffffff">
+        <LinearLayout 
+	   	   android:layout_width="match_parent"
+	       android:layout_height="match_parent"
+	       android:orientation="vertical"
+	       android:gravity="center">
+			    <EditText 
+			        android:id="@+id/et_enviar"
+			        android:gravity="center"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:hint="Introduzca su nota de texto aqui"/>
+			     <Button
+			        android:id="@+id/bGuarda"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="GUARDAR"/>
+		</LinearLayout>
+ 		</TableRow>
+</TableLayout>
+    
+

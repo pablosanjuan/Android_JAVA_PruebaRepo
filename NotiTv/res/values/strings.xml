@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NotiTv</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drawer_layout">DrawerLayout</string>
+    <string name="grupo1">Pablo Sanjuan</string>
+    <string name="grupo2">Sebastian Landinez</string>
+    <string name="grupo3">Juan Pablo Mora</string>
+    <string name="grupo4">Diego Viveros</string>
+    <string name="grupo5">Andres F. Osorio</string>
+    <string name="rayas">__________________</string>
+    <string name="enfasis">Enfasis IV - Telematica</string>
+    <string name="universidad">Universidad del Cauca</string>
+    <string name="ano">2014</string>
+    <string name="bienvenido">..Bienvenido..</string>
+    <string name="datos">Ingrese sus Datos</string>
+    <string name="usuario">Usuario:</string>
+    <string name="ing_usuario">Ingrese su Usuario</string>
+    <string name="ing_apellido">Ingrese su Apellido</string>
+    <string name="contrasena">Contraseña:</string>
+    <string name="ing_contrasena">Ingrese su Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registro">Registrarse</string>
+    <string name="guardar">Guardar</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellido">Apellido:</string>
+    <string name="ing_nombre">Ingrese su Nombre</string>
+    <string name="notificacion">Notificacion</string>
+
+    <string-array name="opciones_menu">
+        <item>Perfil</item>
+        <item>Cuenta</item>
+        <item>Cerrar Sesion</item>
+    </string-array>
+
+    <string name="drawer_open">Menu Abierto</string>
+    <string name="drawer_close">Menu Cerrado</string>
+    <string name="title_activity_splash_app">NotiTv</string>
+    <string name="slogan">Informacion Adiconal en tu Movil!!</string>
+    <string name="title_activity_splash_desarrollador">Splash_desarrollador</string>
+    <string name="title_activity_identificacion">Identificacion</string>
+    <string name="title_activity_splas_desarrollador">SplashDesarrollador</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="title_activity_desplegue">Desplegue</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TaDa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_loguin">Loguin</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="bienvenido">Bienvenido a </string>
+    <string name="datos">TaDa!</string>
+    <string name="usuario">Usuario:</string>
+    <string name="ing_usuario">Ingrese su Usuario</string>
+    <string name="contrasena">Contraseña:</string>
+    <string name="ing_contrasena">Ingrese su Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registro">Registrarse</string>
+    <string name="guardar">Guardar</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_historial">Historial</string>
+    <string name="title_activity_historial_texto">HistorialTexto</string>
+
+    <string-array name="llenar">
+        <item>uno</item>
+        <item>dos</item>
+        <item>tres</item>
+        <item>uno</item>
+        <item>dos</item>
+        <item>tres</item>
+        <item>uno</item>
+        <item>dos</item>
+        <item>tres</item>
+        <item>uno</item>
+        <item>dos</item>
+        <item>tres</item>
+        <item>uno</item>
+        <item>dos</item>
+        <item>tres</item>
+        <item>uno</item>
+        <item>dos</item>
+        <item>tres</item>
+    </string-array>
+
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

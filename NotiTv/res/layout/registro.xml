@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/gris"
+    android:gravity="center"
+    tools:context="com.example.notitve.Registro">
+
+       	<TextView
+   		android:textColor="@color/blanco"
+    	android:textSize="20dp"
+       	android:layout_marginBottom="50dp"
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/datos" />
+       		
+    	<EditText
+    	android:padding="10dp"
+    	android:gravity="center"
+    	android:inputType="text"
+    	android:background="@drawable/edittext_selector"
+    	android:id="@+id/et_nombre_reg"
+    	android:textColorHint="@color/gris_claro"
+    	android:hint="@string/ing_nombre"  
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    	<EditText
+    	android:padding="10dp"
+    	android:gravity="center"
+    	android:inputType="text"
+    	android:background="@drawable/edittext_selector"
+    	android:id="@+id/et_apellido_reg"
+    	android:textColorHint="@color/gris_claro"
+    	android:hint="@string/ing_apellido"  
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    	<EditText
+    	android:padding="10dp"
+    	android:gravity="center"
+    	android:background="@drawable/edittext_selector"
+    	android:inputType="text"
+    	android:id="@+id/et_ususario_reg"
+    	android:hint="@string/ing_usuario"
+    	android:textColorHint="@color/gris_claro"
+    	android:layout_marginBottom="10dp"
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    	<EditText
+    	android:padding="10dp"
+    	android:gravity="center"
+    	android:background="@drawable/edittext_selector"
+    	android:inputType="textPassword"
+    	android:id="@+id/et_contrasena_reg"
+    	android:hint="@string/ing_contrasena"
+    	android:textColorHint="@color/gris_claro"
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+    	<Button
+    	android:id="@+id/btn_guardar"
+    	style="@style/boton_azul"
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar"/>
+</LinearLayout>
